@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="title">Fixed-point Auto Clicker</string>
+    <string name="instructions">Enable the accessibility service, enter a screen coordinate, then start. Tap count 0 means run continuously until Stop is pressed.</string>
+    <string name="open_accessibility_settings">Open accessibility settings</string>
+    <string name="x_coordinate">X coordinate in pixels</string>
+    <string name="y_coordinate">Y coordinate in pixels</string>
+    <string name="interval_ms">Interval in milliseconds (minimum 100)</string>
+    <string name="start_delay_ms">Start delay in milliseconds</string>
+    <string name="tap_count">Tap count (0 = continuous)</string>
+    <string name="start">Start clicking</string>
+    <string name="stop">Stop</string>
+    <string name="status_ready">Service enabled. Ready.</string>
+    <string name="status_running">Auto clicker is running.</string>
+    <string name="status_stopped">Auto clicker stopped.</string>
+    <string name="status_enable_service">Enable Auto Clicker in accessibility settings first.</string>
+    <string name="status_invalid_input">Enter valid whole numbers in every field.</string>
+    <string name="status_invalid_range">Coordinates and delays cannot be negative. Interval must be at least 100 ms.</string>
+    <string name="responsible_use">Use only where automated input is permitted. This project does not inspect screen content or target any specific app.</string>
+    <string name="accessibility_service_name">Auto Clicker Service</string>
+    <string name="accessibility_description">Performs user-configured taps at a fixed screen coordinate.</string>
+</resources>
